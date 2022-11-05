@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BK Multi Speciality Hospital</title>
+        <link rel="stylesheet" href="./Chat.css">
+        <style>
+            body {
+		background: url(https://wallpaperaccess.com/full/1282794.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		text-align: center;
+                align-content: center;
+		     }
+            button{
+                background:linear-gradient(to left,blue,violet,lavender,purple,pink);
+                animation-name: example;
+                animation-duration: 4s;
+                transition: width 2s;
+                margin: auto;
+                text-align: center;
+                align-content: center;
+                height: 100px;
+                font-size:large;
+                font-weight: bolder;
+                font-family: Bodoni Mt;
+              }
+              @keyframes example {
+                0%   {background:linear-gradient(to left,blue,violet,lavender,purple,pink);}
+                25%  {background:linear-gradient(to right,blueviolet,cyan,red,orange,indigo,brown,pink);}
+                35%  {background:linear-gradient(to left,rgb(244, 95, 255),darkmagenta,lawngreen,lightcoral,purple,plum);}
+                45% {background:linear-gradient(to right,rgb(0, 255, 0),burlywood,rgb(139, 50, 240),rgb(186, 1, 167),rgb(127, 165, 255),blue);}
+                55% {background:linear-gradient(to left,blue,rgb(116, 237, 158),lavender,rgb(117, 255, 107),rgb(255, 189, 200));}
+                100% {background:linear-gradient(to left,blue,violet,purple,pink,brown,pink,lightcoral,violet)};
+              }
+              h1
+              {
+              	align-content: center;
+              }
+        </style>
+    </head>
+    <body >
+        <h1 style="color:rgb(0, 0, 0);">BK MULTISPECIALITY HOSPITAL</h1>
+        <div></div>
+        <button><a href="https://web-chat.global.assistant.watson.appdomain.cloud/preview.html?backgroundImageURL=https%3A%2F%2Feu-gb.assistant.watson.cloud.ibm.com%2Fpublic%2Fimages%2Fupx-871c210f-4d1f-4a77-ab9e-d55744230ea3%3A%3A107aa9ec-5799-46cc-92a6-5b79a9ca837f&integrationID=5ebc1b3e-0e2b-4e36-bf43-5b862fc32dd3&region=eu-gb&serviceInstanceID=871c210f-4d1f-4a77-ab9e-d55744230ea3">Chat Bot Service</a></button>
+        <!-- Embed-->
+        <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "5ebc1b3e-0e2b-4e36-bf43-5b862fc32dd3", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "871c210f-4d1f-4a77-ab9e-d55744230ea3", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+    </body>
+</html>
