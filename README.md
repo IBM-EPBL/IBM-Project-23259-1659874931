@@ -7,16 +7,16 @@
 
 ### 📌 Domain :	Cloud Application Development
 
-#### ➡️ Team ID	PNT2022TMID23059
-#### ➡️ Team Size : 4
+> ➡️ Team ID	PNT2022TMID23059
 
-#### 1️⃣ Team Leader :	RAMYA V
+> ➡️ Team Size : 4
 
-#### 2️⃣ Team member 1 :	SUBHASHREE S
-
-#### 3️⃣ Team member 2 :	SREEKRISHNA B
-
-#### 4️⃣ Team member 3 :	KIRTHANA B
+|  Team Member  |    Names      |
+| ------------- | ------------- |
+| `Team Leader`   |    **Ramya V**    |
+| `Team Member 1` | **Subhashree S**  |
+| `Team Member 2` | **Sreekrishna B** |
+| `Team Member 3` |   **Kirthana B**  |
 
 ### 📌Project Description:
 
