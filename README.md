@@ -1,5 +1,5 @@
 # IBM-Project-23259-1659874931
-#  🔗Skill / Job Recommender Application
+#  Skill / Job Recommender Application
 
 ### 📌 IBM-Project-23259-1659874931
 
@@ -7,16 +7,16 @@
 
 ### 📌 Domain :	Cloud Application Development
 
-### ➡️ Team ID	PNT2022TMID23059
-### ➡️ Team Size : 4
+#### ➡️ Team ID	PNT2022TMID23059
+#### ➡️ Team Size : 4
 
-### 1️⃣ Team Leader :	RAMYA V
+#### 1️⃣ Team Leader :	RAMYA V
 
-### 2️⃣ Team member 1 :	SUBHASHREE S
+#### 2️⃣ Team member 1 :	SUBHASHREE S
 
-### 3️⃣ Team member 2 :	SREEKRISHNA B
+#### 3️⃣ Team member 2 :	SREEKRISHNA B
 
-### 4️⃣ Team member 3 :	KIRTHANA B
+#### 4️⃣ Team member 3 :	KIRTHANA B
 
 ### 📌Project Description:
 
