@@ -11,7 +11,7 @@
 
 > ➡️ Team Size : 4
 
-|  Team Member  |    Names      |
+|  Team Members  |    Names      |
 | ------------- | ------------- |
 | `Team Leader`   |    **Ramya V**    |
 | `Team Member 1` | **Subhashree S**  |
