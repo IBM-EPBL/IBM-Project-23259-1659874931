@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static\css\login.css">
+    </head>
+   
+        
+    <div class="header">
+      <h1>Skill And Job Recommender</h1>
+      <h1>Inspiring <span> </span>Jobs for the future !</h1>
+    </div>
+    <body">
+    <div class="topnav">
+      <a href="http://192.168.43.209:8080/"><i class="fa fa-home" style="font-size:24px"></i><pre>Home</pre></a>
+      <a href="login"><i class="fa fa-sign-in" style="font-size:24px"></i><pre>Login</pre></a>
+      <a href="register"><i class="fa fa-registered" style="font-size:24px"></i><pre>Register</pre></a>
+      <a href="http://192.168.43.209:8080/"><i class="fa fa-eye" style="font-size:24px"></i><pre>About Us</pre></a>
+      <a href="dashboard"><i class="fa fa-graduation-cap" style="font-size:24px"></i><pre>Job Chooser</pre></a>
+      <a href="display"><i class="fa fa-hand-o-down" style="font-size:24px"></i><pre>Your Jobs</pre></a>
+      <a href="#" style="float:right"><i class="fa fa-sign-out" style="font-size:24px"></i><pre>Sign Out</pre></a>
+    </div>
+        <div class="imgcontainer">
+          <img src="static/img/avatar.jpg" style="background-repeat:no-repeat;" width="300px" height="120px">
+        </div>
+        <div class="container"> 
+          <h2> Login Form </h2>
+          <form action="/login" method="post">
+          <div class="msg">{{ msg }}</div>
+              <input type="text" name="username" placeholder="Enter Your Username"  id="username" required></br></br>
+        <input type="password" name="password" placeholder="Enter Your Password" id="password" required></br></br>
+              </br>
+              </br>
+          <button type="submit" id="button" class="btn btn-primary"> Login </button>
+          </form>
+      </div>
+  
+      
+        
+      </form>
+    </body>
+    </html>
