@@ -1,0 +1,182 @@
+
+    span::before {
+            content: "Android Developers";
+            animation: animate infinite 5s;
+            padding-left: 10px;
+        }
+      
+        @keyframes animate {
+      
+            0% {
+                content: "Android Developers";
+                color:rgba(48, 182, 0, 0.684);
+            }
+      
+            50% {
+                content: "NodeJs Developers";
+                color:rgb(135, 197, 255);
+            }
+      
+            75% {
+                content: "Python Developers";
+                color:rgb(0, 224, 60);
+            }
+            80% {
+                content: "Java Developers";
+                color:rgb(226, 158, 175);
+            }
+        }
+    
+  
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: bodoni mt;
+      padding: 10px;
+      background-image: url('static/img/bg.jpg');
+    background-color: black;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background:linear-gradient(to left,rgb(152, 152, 174),rgb(208, 121, 121),rgb(157, 157, 183),rgb(170, 148, 170),rgb(159, 98, 224)),rgb(255, 255, 255),rgb(85, 168, 113);
+
+    }
+    
+    .header h1 {
+      font-size: 50px;
+    }
+    
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 16px 14px;
+      text-decoration: none;
+    }
+    .topnav h4 {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      margin-top:22px;
+      text-decoration: none;
+    }
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 9, 187);
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+      float: left;
+      width: 75%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+      background-image: url('static/img/bg.jpg');
+      color:white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .card1 {
+      background-image: url('static/img/bg1.jpg');
+      padding: 20px;
+      color:white;
+      margin-top: 20px;
+      align-self: center;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    
+    .search{
+      position: relative;
+      box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+        
+      }
+
+      .search input{
+
+       height: 60px;
+       text-indent: 25px;
+       border: 2px solid #d6d4d4;
+
+
+      }
+
+
+      .search input:focus{
+
+       box-shadow: none;
+       border: 2px solid blue;
+
+
+      }
+
+      .search .fa-search{
+
+       position: absolute;
+       top: 20px;
+       left: 16px;
+
+      }
+
+      
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
