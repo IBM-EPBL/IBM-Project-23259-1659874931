@@ -1,0 +1,211 @@
+span::before {
+    content: "Android Developers";
+    animation: animate infinite 3s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Android Developers";
+        color:rgb(169, 34, 149);
+    }
+
+    50% {
+        content: "NodeJs Developers";
+        color:rgb(169, 34, 149);
+    }
+
+    75% {
+        content: "Python Developers";
+        color:rgb(169, 34, 149);
+    }
+    80% {
+        content: "Java Developers";
+        color:rgb(169, 34, 149);
+    }
+}
+
+
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: bodoni mt;
+padding: 10px;
+background-image: url('static/img/bg.jpg');
+background-color: black;     }
+
+/* Header/Blog Title */
+.header {
+padding: 30px;
+text-align: center;
+background-image: url('static/img/bg1.jpg');
+background-color: black; 
+}
+
+.header h1 {
+font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: rgb(0, 0, 0);
+}
+
+/* Style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #ffffff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+background-color: rgb(255, 255, 255);
+color: rgb(48, 0, 168);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+float: left;
+width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+float: left;
+width: 25%;
+background-color: #f1f1f1;
+padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+background-color: #aaa;
+width: 100%;
+padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+background-color: white;
+color:black;
+padding: 20px;
+margin-top: 20px;
+}
+.card1 {
+background-color: white;
+color:black;
+padding: 20px;
+margin-top: 20px;
+align-self: center;
+}
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Footer */
+.footer {
+padding: 20px;
+text-align: center;
+background: #ddd;
+margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+width: 100%;
+padding: 0;
+}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+.topnav a {
+float: none;
+width: 100%;
+}
+}
+
+
+
+
+
+body {
+font-family: bodoni mt;
+background-color: rgb(0, 0, 0);
+color: black;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+padding: 16px;
+background-image: url('static/img/bg1.jpg');
+background-color: black;  
+     }
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email]{
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+color:black;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+color: black;
+}
+
+/* Overwrite default styles of hr */
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+background-color: #000000d2;
+color: rgb(255, 255, 255);
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+.registerbtn:hover {
+opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+color: rgb(40, 0, 182);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+background-color: #f1f1f1;
+color: black;
+text-align: center;
+}

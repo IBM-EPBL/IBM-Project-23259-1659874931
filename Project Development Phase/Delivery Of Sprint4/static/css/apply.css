@@ -1,0 +1,221 @@
+
+    span::before {
+            content: "Android Developers";
+            animation: animate infinite 3s;
+            padding-left: 10px;
+        }
+    
+        @keyframes animate {
+      
+            0% {
+                content: "Android Developers";
+                color:rgb(128, 0, 53);
+            }
+      
+            50% {
+                content: "NodeJs Developers";
+                color:rgb(128, 0, 53);
+            }
+      
+            75% {
+                content: "Python Developers";
+                color:rgb(128, 0, 53);
+            }
+            80% {
+                content: "Java Developers";
+                color:rgb(128, 0, 53);
+            }
+        }
+    
+  
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: bodoni mt;
+      padding: 10px;
+      background-image: url('static/img/bg.jpg');
+      background-color: black;    
+      color:white;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background-image: url('static/img/bg.jpg');
+      background-color: black; 
+    }
+    
+    .header h1 {
+      font-size: 50px;
+    }
+    
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: rgb(255, 255, 255);
+      color: rgb(177, 34, 75);
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+      float: left;
+      width: 75%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+      background-color: rgb(0, 0, 0);
+      padding: 20px;
+      margin-top: 20px;
+      color: white;
+    }
+    .card1 {
+      background-color: rgb(0, 0, 0);
+      padding: 20px;
+      margin-top: 20px;
+      align-self: center;
+      color:white
+    }
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: rgb(0, 0, 0);
+      margin-top: 20px;
+    }
+    * {
+        box-sizing: border-box;
+      }
+      
+      input[type=text],input[type=email], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 4px;
+        resize: vertical;
+        color: black;
+      }
+
+      input[type=password] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 4px;
+        resize: vertical;
+        color:black
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #00d688;
+        color: rgb(0, 0, 0);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #00db0b;
+
+      }
+      .registerbtn {
+        background-color: #000000d2;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0
+      }
+      .container {
+        border-radius: 5px;
+        background-image: url('static/img/bg1.jpg');
+      background-color: black; 
+        padding: 20px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+     
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+    
+  
