@@ -1,0 +1,214 @@
+
+    span::before {
+            content: "Android Developers";
+            animation: animate infinite 3s;
+            padding-left: 10px;
+        }
+      
+        @keyframes animate {
+      
+            0% {
+                content: "Android Developers";
+                color:rgb(0, 208, 255);
+            }
+      
+            50% {
+                content: "NodeJs Developers";
+                color:rgb(0, 221, 255);
+            }
+      
+            75% {
+                content: "Python Developers";
+                color:rgb(0, 213, 255);
+            }
+            80% {
+                content: "Java Developers";
+                color:rgba(0, 208, 255, 0.618);
+            }
+        }
+    
+  
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: bodoni mt;
+      padding: 10px;
+      background-image: url('static/img/login.jpeg');
+      background-repeat:no-repeat;
+      background-color: black;
+      background-size: cover;
+      color:rgb(255, 255, 255);
+    }
+    
+    /* Header/Blog Title
+    background:linear-gradient(to left,rgb(255, 255, 255),rgb(94, 147, 221),rgb(37, 99, 224),rgb(13, 182, 255),blue) */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background-image: url('static/img/bg.jpg');
+      background-repeat:no-repeat;
+      background-color: black;  background-size: cover;
+      color:white;
+    }
+    
+    .header h1 {
+      font-size: 50px;
+    }
+    
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+      float: left;
+      width: 75%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .card1 {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+      align-self: center;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+      /* Full-width inputs */
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        color: black;
+      }
+      
+      /* Set a style for all buttons */
+      button {
+        
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      /* Add a hover effect for buttons */
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      /* Extra style for the cancel button (red) */
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background:linear-gradient(to right,rgb(162, 7, 7),rgb(205, 48, 48),rgb(201, 116, 116),rgb(193, 49, 49),rgb(189, 24, 24))
+      }
+      
+      /* Center the avatar image inside this container */
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+      }
+      
+      /* Avatar image */
+      img.avatar {
+        width: 40%;
+        border-radius: 50%;
+      }
+      
+      /* Add padding to containers */
+      .container {
+        padding: 16px;
+      }
+      
+      /* The "Forgot password" text */
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+      
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+          display: block;
+          float: none;
+        }
+        .cancelbtn {
+          width: 100%;
+        }
+      }
+    
